@@ -1,1 +1,18 @@
 Baidu ner data and entity linking data.
+
+
+# kb_data
+40w
+```
+{"alias": ["胜利"], "subject_id": "10001", "subject": "胜利", "type": ["Thing"], "data": [{"predicate": "摘要", "object": "英雄联盟胜利系列皮肤是拳头公司制作的具有纪念意义限定系列皮肤之一。拳头公司制作的具有纪念意义限定系列皮肤还包括英雄联盟冠军系列皮肤、MSI季中冠军赛征服者系列以及英雄联盟全球总决赛冠军系列皮肤。每到赛季结束时，拳头公司都会制作胜利系列皮肤作为赛季奖励来认可那些在排位赛中勇猛拼搏达到黄金段位的玩家。"}, {"predicate": "制作方", "object": "Riot Games"}, {"predicate": "外文名", "object": "Victorious"}, {"predicate": "来源", "object": "英雄联盟"}, {"predicate": "中文名", "object": "胜利"}, {"predicate": "属性", "object": "虚拟"}, {"predicate": "义项描述", "object": "游戏《英雄联盟》胜利系列限定皮肤"}]}
+{"alias": ["张三的歌"], "subject_id": "10002", "subject": "张三的歌", "type": ["CreativeWork"], "data": [{"predicate": "摘要", "object": "《张三的歌》这首经典老歌，词曲作者是张子石。最早收录于李寿全的专辑《8又二分之一》当中。李寿全作为台湾民谣时代的推动人，在80年代中后期有着举足轻重的地位，而这首《张三的歌》出现在当时的背景之下，带来了无可比拟的社会效应，也为那个年代留下了无法抹去的回忆。随着时间的推移，陈翔、齐秦、吴宗宪、蔡琴、青鸟飞鱼等歌手都曾翻唱过。"}, {"predicate": "歌曲原唱", "object": "李寿全"}, {"predicate": "谱曲", "object": "张子石"}, {"predicate": "歌曲时长", "object": "3分58秒"}, {"predicate": "歌曲语言", "object": "普通话"}, {"predicate": "音乐风格", "object": "民谣"}, {"predicate": "唱片公司", "object": "飞碟唱片"}, {"predicate": "翻唱", "object": "齐秦、苏芮、南方二重唱等"}, {"predicate": "填词", "object": "张子石"}, {"predicate": "发行时间", "object": "1986-08-01"}, {"predicate": "中文名称", "object": "张三的歌"}, {"predicate": "所属专辑", "object": "8又二分之一"}, {"predicate": "义项描述", "object": "李寿全演唱歌曲"}, {"predicate": "标签", "object": "单曲"}, {"predicate": "标签", "object": "音乐作品"}]}
+```
+# train.json
+10w
+```
+{"text_id": "1", "text": "南京南站:坐高铁在南京南站下。南京南站", "mention_data": [{"kb_id": "311223", "mention": "南京南站", "offset": "0"}, {"kb_id": "341096", "mention": "高铁", "offset": "6"}, {"kb_id": "311223", "mention": "南京南站", "offset": "9"}, {"kb_id": "311223", "mention": "南京南站", "offset": "15"}]}
+{"text_id": "2", "text": "比特币吸粉无数,但央行的心另有所属|界面新闻 · jmedia", "mention_data": [{"kb_id": "278410", "mention": "比特币", "offset": "0"}, {"kb_id": "199602", "mention": "央行", "offset": "9"}, {"kb_id": "215472", "mention": "界面新闻", "offset": "18"}]}
+{"text_id": "3", "text": "解读《万历十五年》", "mention_data": [{"kb_id": "131751", "mention": "万历十五年", "offset": "3"}]}
+{"text_id": "4", "text": "《时间的针脚第一季》迅雷下载_完整版在线观看_美剧...", "mention_data": [{"kb_id": "NIL", "mention": "时间的针脚第一季", "offset": "1"}, {"kb_id": "57067", "mention": "迅雷", "offset": "10"}, {"kb_id": "394479", "mention": "美剧", "offset": "23"}]}
+{"text_id": "5", "text": "毛泽东扮演者赵新月评《大秧歌》“大”在哪", "mention_data": [{"kb_id": "289026", "mention": "毛泽东", "offset": "0"}, {"kb_id": "NIL", "mention": "赵新月", "offset": "6"}, {"kb_id": "335162", "mention": "大秧歌", "offset": "11"}]}
+```
