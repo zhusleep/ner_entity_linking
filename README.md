@@ -32,5 +32,6 @@ git lfs clone https://github.com/zhusleep/ner_entity_linking
 ```
 
 # 技术经验分享
+4th solution
 https://zhuanlan.zhihu.com/p/79389393
 
