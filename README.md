@@ -20,5 +20,17 @@
 {"text_id": "5", "text": "毛泽东扮演者赵新月评《大秧歌》“大”在哪", "mention_data": [{"kb_id": "289026", "mention": "毛泽东", "offset": "0"}, {"kb_id": "NIL", "mention": "赵新月", "offset": "6"}, {"kb_id": "335162", "mention": "大秧歌", "offset": "11"}]}
 ```
 
-# 经验分享
+# 数据下载方式
+## 安装lfs 
+
+参考教程 https://www.jianshu.com/p/493b81544f80
+
+## 下载数据
+
+```
+git lfs clone https://github.com/zhusleep/ner_entity_linking
+```
+
+# 技术经验分享
 https://zhuanlan.zhihu.com/p/79389393
+
